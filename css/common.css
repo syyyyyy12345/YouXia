@@ -1,0 +1,263 @@
+/* 版心 */
+
+.wrapper {
+    width: 62%;
+    margin: 0 auto;
+}
+
+
+/* 顶部 */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 0.42rem;
+    background-color: #888;
+}
+
+.banner ul {
+    display: flex;
+}
+
+.banner .topLeft {
+    margin-left: 0.25rem;
+}
+
+.banner .topLeft ul li {
+    line-height: 0.42rem;
+    margin-left: 0.65rem;
+    font-size: 0.12rem;
+}
+
+
+/* 顶部右边 */
+
+.banner .topRight {
+    display: flex;
+    margin-right: 0.8rem;
+}
+
+
+/* 搜索 */
+
+.banner .topRight .search {
+    display: flex;
+    line-height: 0.42rem;
+    margin-right: 0.38rem;
+}
+
+.banner .topRight .search input {
+    height: 0.15rem;
+    width: 1.2rem;
+    margin-right: 0.2rem;
+    border-radius: 0.08rem;
+    font-size: 0.08rem;
+}
+
+.banner .topRight .search input::placeholder {
+    padding-left: 0.05rem;
+    font-size: 0.08rem;
+    color: #ccc;
+}
+
+.banner .topRight .search .iconfont {
+    font-size: 0.2rem;
+    color: white;
+}
+
+
+/* 头像 */
+
+.banner .topRight .head-pic {
+    width: 0.2rem;
+    height: 0.2rem;
+    margin: 0.12rem;
+    border-radius: 50%;
+    /* background-color: #fff; */
+}
+
+.banner .topRight .head-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* 游戏详情 */
+
+.content {
+    padding-bottom: 0.2rem;
+    border-bottom: #888 solid 1px;
+}
+
+.content .gamePic {
+    margin-top: 0.25rem;
+    width: 100%;
+    height: 2.4rem;
+    border-radius: 0.2rem;
+    background-color: pink;
+}
+
+.content .gamePic img {
+    width: 100%;
+    border-radius: 0.2rem;
+}
+
+.content .gameName {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.12rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+
+.content .gameName .iconfont {
+    line-height: 0.24rem;
+    font-size: 0.18rem;
+}
+
+.content .gameTag {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+    font-weight: bold;
+}
+
+
+/* 游戏简介 */
+
+.gameIntro {
+    margin-top: 0.25rem;
+}
+
+.gameIntro h2 {
+    font-weight: bold;
+}
+
+.gameIntro p {
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+    /* line-height: 0.2rem; */
+}
+
+
+/* 游戏评论 */
+
+
+/* 标题 */
+
+.gameCom {
+    margin-top: 0.05rem;
+}
+
+.gameCom .comTitle {
+    padding-top: 0.2rem;
+    padding-left: 0.25rem;
+    font-size: 0.15rem;
+    font-weight: bold;
+    background-color: #eee;
+}
+
+.gameCom .comTitle .title {
+    margin-right: 0.2rem;
+}
+
+.gameCom .comTitle .iconfont {
+    /* margin-left: 0.02rem; */
+    font-size: 0.15rem;
+    font-weight: normal;
+}
+
+.gameCom .comTitle .icon-icon-test3 {
+    color: orange;
+}
+
+.gameCom .comTitle .icon-icon-test2 {
+    color: gray;
+}
+
+
+/* 玩家评论 */
+
+.gameCom .comment {
+    padding: 0 10%;
+}
+
+.gameCom .comment:nth-child(even) {
+    background-color: #eee;
+}
+
+.gameCom .comment:nth-child(odd) {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.gameCom .comment .people {
+    display: flex;
+    margin: 0 auto;
+    padding: 0.25rem 0;
+}
+
+.gameCom .comment .people .head-pic {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    border: 1px solid #999;
+    /* background-color: #fff; */
+}
+
+.gameCom .comment .people .head-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.gameCom .comment .people span {
+    margin-left: 0.18rem;
+    line-height: 0.4rem;
+    font-size: 0.12rem;
+    font-weight: bold;
+}
+
+.gameCom .comment p {
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 0.18rem;
+    font-size: 0.12rem;
+}
+
+
+/* 评论点赞 */
+
+.gameCom .comment .action {
+    display: flex;
+    justify-content: space-around;
+    height: 0.4rem;
+    border-top: 1px solid #999;
+}
+
+.gameCom .comment .action .actLeft,
+.gameCom .comment .action .actRight {
+    display: flex;
+    line-height: 0.4rem;
+}
+
+.gameCom .comment .action .iconfont {
+    font-size: 0.2rem;
+}
+
+.gameCom .comment .action .text {
+    margin-left: 0.1rem;
+}
+
+
+/* 返回 */
+
+.return {
+    /* height: 1rem; */
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    font-size: 0.15rem;
+}

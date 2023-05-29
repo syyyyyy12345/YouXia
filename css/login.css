@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+}
+
+.login-main {
+    width: 25%;
+    /* height: 5rem; */
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: teal; */
+}
+
+.login-main h1 {
+    padding-top: 0.7rem;
+}
+
+
+/* 输入框 */
+
+.login-main input {
+    width: 2.5rem;
+    height: 0.33rem;
+    margin-top: 0.3rem;
+    padding-left: 0.1rem;
+    font-size: 0.12rem;
+    line-height: 0.3rem;
+    border: 1px solid #777;
+    border-radius: 0.15rem;
+    background: white;
+}
+
+.login-main input::placeholder {
+    line-height: 0.3rem;
+    font-size: 0.12rem;
+    color: #aaa;
+}
+
+.login-main .register {
+    margin: 0.25rem 0;
+    text-align: right;
+}
+
+.login-main .register a {
+    font-size: 0.09rem;
+    color: #777;
+}
+
+.login-main button {
+    width: 80%;
+    height: 0.3rem;
+    font-size: 0.12rem;
+    border-radius: 0.1rem;
+    border: 1px solid #777;
+    background-color: #fff;
+}
+
+
+/* 图标 */
+
+.login-main .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+
+.login-main .icons .iconfont {
+    font-size: 0.25rem;
+}
+
+.login-main .more {
+    margin-top: 0.1rem;
+    font-size: 0.09rem;
+    color: #666;
+    font-weight: bold;
+}
